@@ -1,0 +1,151 @@
+/* Reset body margin and padding */
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+  body {
+    background-color: tomato;
+  }
+  #section_one, #section_three, #section_two, #section_four, #section_five, #dgree {
+    display: block !important;
+    text-align: justify ;
+    width: fit-content;
+    margin-left: 0% !important;
+    margin: 0% auto;
+  }
+  #dgree{
+    text-align: center;
+    margin: 10px;
+    
+  }
+  #dgree_discription{
+    text-align: justify !important;
+  }
+  #dgree_detail{
+    border-bottom: 2px solid black;
+    margin-top: 10%;
+  }
+  #name{
+    width: 100% !important;
+    text-align: center;
+    padding-left:0% !important;
+  }
+}
+
+
+
+/* Media query for screens larger than 600px */
+@media (min-width: 600px) {
+  body {
+    margin: auto;
+    max-width: 600px;
+    border: 5px solid black;
+    #point + div {
+      width: 60%;
+    }
+    
+  
+  }
+}
+
+/* Top header section */
+#section_one {
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+}
+
+/* Name and Designation */
+#name {
+  background-color: black;
+  color: white;
+  padding-left: 10%;
+  width: 50%;
+}
+
+/* Main Name */
+#my_name {
+  margin-top: 4%;
+  font-size: 180%;
+  font-weight: bolder;
+}
+
+/* Contact Info */
+#contact {
+  text-align: left;
+  padding-left: 4%;
+  width: 40%;
+}
+
+/* Add margin to all divs inside the contact section */
+#contact div {
+  margin-top: 4%;
+}
+
+/* Horizontal Line */
+hr {
+  width: 90%;
+  height: 3px;
+  background-color: rgb(0, 0, 0);
+}
+
+/* Main Content Sections */
+#section_three, #section_two, #section_four {
+  margin-left: 10%;
+  display: flex;
+}
+
+/* Main Points and Descriptions */
+#point {
+  font-weight: 900;
+  font-size: 130%;
+  width: 25%;
+  white-space: nowrap;
+}
+
+
+#experience_company{
+  font-weight: bold;
+}
+#experience_desigination{
+  font-weight: lighter;
+}
+#dgree{
+  display: flex;
+}
+#dgree_year , #dgree_name{
+  font-weight: bold;
+}
+#dgree_discription{
+  margin-left: 10%;
+  text-align: left;
+}
+/* Footer Section */
+#section_five {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Align content of each section in the footer */
+#section_five_one {
+  align-content: flex-start;
+}
+
+#section_five_two {
+  align-content: center;
+}
+
+#section_five_three {
+  align-content: flex-end;
+}
+
+/* Social Media Section */
+#Social_media {
+  font-weight: 900;
+}
